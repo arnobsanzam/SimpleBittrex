@@ -19,11 +19,11 @@ class Main
             throw new Exception("Could not connect to server");
         }
 
-//        if (!API_SECRET.isEmpty()) {
-//            authenticateClient(client);
-//        } else {
-//            System.out.println("Authentication skipped because API key was not provided");
-//        }
+        if (!API_SECRET.isEmpty()) {
+            authenticateClient(client);
+        } else {
+            System.out.println("Authentication skipped because API key was not provided");
+        }
 
         subscribe(client);
     }
