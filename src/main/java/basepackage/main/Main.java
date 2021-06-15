@@ -10,7 +10,6 @@ class Main
     static final String URL = "https://socket-v3.bittrex.com/signalr";
     static final String API_KEY = "";
     static final String API_SECRET = "";
-
     public static void main(String[] args)
             throws Exception
     {
